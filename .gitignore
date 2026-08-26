@@ -1,0 +1,11 @@
+# Never commit an identity or its passphrase.
+*.pem
+*.key
+.passphrase
+agent_*/
+identity.json
+identity.pem
+
+.venv/
+__pycache__/
+*.pyc
