@@ -1,11 +1,11 @@
-# Never commit an identity or its passphrase.
+# keys & identities — never commit
 *.pem
-*.key
-.passphrase
-agent_*/
 identity.json
-identity.pem
-
-.venv/
+agent_*/
+archive/
+proofs/
+tclk_seeds.tsv
 __pycache__/
 *.pyc
+.env
+swarm_log.txt
